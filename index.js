@@ -114,5 +114,5 @@ app.get('/works-in-chrome-and-safari', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Open your browser and navigate to http://localhost:${port}`)
+    console.log(`Open your browser and navigate to http://127.0.0.1:${port}`)
 });
